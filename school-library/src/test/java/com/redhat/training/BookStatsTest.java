@@ -17,7 +17,7 @@ public class BookStatsTest {
         double wordCount = BookStats.countWords(book);
 
         // Then
-        assertEquals(0, wordCount);
+        assertEquals(4, wordCount);
     }
 
     @Test
